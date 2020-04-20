@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-learn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.17.1",
+    "validator": "^13.0.0",
+    "yargs": "^15.3.1"
+  }
+}
