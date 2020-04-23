@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "start-wr": "nodemon web-server/src/app.js -e js,hbs"
   },
   "license": "MIT",
   "dependencies": {
