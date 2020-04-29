@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "start-wr": "nodemon web-server/src/app.js -e js,hbs"
+    "start-cht": "nodemon chat-app/src/index.js",
+    "start-wa": "nodemon weather-app/src/index.js",
+    "start-file": "nodemon file-sm-comd-line-args/src/index.js",
+    "start-note": "nodemon file-sm-comd-line-args/note-app/index.js"
   },
   "license": "MIT",
   "dependencies": {
@@ -12,6 +14,7 @@
     "express": "^4.16.4",
     "hbs": "^4.1.1",
     "request": "^2.88.0",
+    "socket.io": "^2.3.0",
     "validator": "^13.0.0",
     "yargs": "^15.3.1"
   }
