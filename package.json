@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start-cht": "nodemon chat-app/src/index.js",
     "start-wa": "nodemon weather-app/src/index.js",
     "start-file": "nodemon file-sm-comd-line-args/src/index.js",
-    "start-note": "nodemon file-sm-comd-line-args/note-app/index.js"
+    "start-note": "nodemon file-sm-comd-line-args/note-app/index.js",
+    "start-cht": "node src/index.js",
+    "start-cht-dev": "nodemon chat-app/src/index.js"
   },
   "license": "MIT",
   "dependencies": {
