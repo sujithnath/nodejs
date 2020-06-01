@@ -11,10 +11,11 @@
   },
   "license": "MIT",
   "dependencies": {
+    "bad-words": "^3.0.0",
     "chalk": "^2.4.1",
     "express": "^4.16.4",
     "hbs": "^4.1.1",
-    "bad-words": "^3.0.0",
+    "mongodb": "^3.5.8",
     "request": "^2.88.0",
     "socket.io": "^2.3.0",
     "validator": "^13.0.0",
@@ -22,5 +23,7 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.7"
-  }
+  },
+  "repository": "https://github.com/sujithnath/nodejs.git",
+  "author": "sujithnath <sujithgnth@gmail.com>"
 }
